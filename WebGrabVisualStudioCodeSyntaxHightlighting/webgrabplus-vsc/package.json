@@ -1,0 +1,25 @@
+{
+  "name": "webgrabplus-vsc",
+  "displayName": "webgrabplus-vsc",
+  "description": "WG++SiteIni Syntax Hightlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "siteini",
+      "aliases": ["WG++SiteIni", "siteini"],
+      "extensions": [".ini"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "siteini",
+      "scopeName": "source.siteini",
+      "path": "./syntaxes/siteini.tmLanguage.json"
+    }]
+  }
+}

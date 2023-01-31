@@ -1,0 +1,70 @@
+{
+	"tokenColors": "./zacks.tmTheme",
+	/*"tokenColors":
+	[
+		{
+			"name": "Type declaration",
+			"scope":
+			[
+				"entity.name.type",
+			],
+			"settings":
+			{
+				"foreground": "#eded5e"
+			}
+		},
+		{
+			"name": "Storage declaration",
+			"scope":
+			[
+				"storage.type",
+			],
+			"settings":
+			{
+				"foreground": "#c381e4"
+			}
+		},
+		{
+			"name": "Tag declaration",
+			"scope":
+			[
+				"entity.name.tag",
+			],
+			"settings":
+			{
+				"foreground": "#ec5f66"
+			}
+		},
+		{
+			"name": "Comment declaration",
+			"scope":
+			[
+				"comment",
+			],
+			"settings":
+			{
+				"foreground": "#a6acb9"
+			}
+		},
+		{
+			"name": "Function declaration",
+			"scope":
+			[
+				"entity.name.function",
+			],
+			"settings":
+			{
+				"foreground": "#6699cc"
+			}
+		}
+	],*/
+	"colors": {
+		"editor.background": "#a6b0ba",
+		"editorCursor.foreground": "#f8f8f0",
+		"editor.foreground": "#d8dee9",
+		"editorWhitespace.foreground": "#3b3a32",
+		"editor.lineHighlightBackground": "#ffffff",
+		"editor.selectionBackground": "#596673"
+	},
+	"name": "WG++SiteIniColorTheme"
+}
