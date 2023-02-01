@@ -3,6 +3,7 @@
   "displayName": "WebGrab+Plus Syntax",
   "description": "WebGrab+Plus SiteIni Syntax Hightlighting",
   "icon": "images/webgrab.png",
+  "publisher": "Blackbear199",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
