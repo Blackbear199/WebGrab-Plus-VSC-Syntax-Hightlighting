@@ -1,2 +1,2 @@
 # WebGrab+Plus Syntax
-Syntax Hightlighting for Visual Studio Code.
+Syntax Hightlighting for WebGrab+Plus SiteIni Files.
