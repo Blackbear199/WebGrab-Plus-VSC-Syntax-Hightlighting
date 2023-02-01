@@ -2,6 +2,7 @@
   "name": "webgrabplus-color",
   "displayName": "WebGrab+Plus Color",
   "description": "WebGrab+Plus SiteIni Color Theme",
+  "icon": "images/webgrab.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
