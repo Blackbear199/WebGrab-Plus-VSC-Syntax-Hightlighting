@@ -14,4 +14,3 @@ Install via VSCode Extensions(preferred method)
 2. Open Extensions in VSCode.
 3. Click on the 3 dots(...) in the top right corner.
 4. Select install from visx and follow prompts.
-5. 
