@@ -45,7 +45,7 @@
 					{
 						"1": {"name": "entity.name.type.siteini"},
 						"2": {"name": "entity.name.function.siteini"},
-						"3": {"name": "comment.block.documentation"}
+						"3": {"name": "comment"}
 					}
 				},
 				{
@@ -53,7 +53,7 @@
 					"name": "",
 					"captures":
 					{
-						"1": {"name": "comment.siteini"}
+						"1": {"name": "comment"}
 					}
 				},
 				{
