@@ -15,8 +15,8 @@ Manual Install
 Install via VSCode Extensions(preferred method)
 1. Download the .visx files you wish to install.
 2. Open Extensions in VSCode.
-3. click on the 3 dots(...) in the top right corner.
-4. select install from visx and follow prompts.
+3. Click on the 3 dots(...) in the top right corner.
+4. Select install from visx and follow prompts.
 
 # Before
 ![Site](/images/before.png)
