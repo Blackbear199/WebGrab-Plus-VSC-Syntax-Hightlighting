@@ -13,7 +13,6 @@
 			[
 				{
 					"match": "^\\*\\*\\s*([\\s_\\-]+)$",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"}
@@ -21,7 +20,6 @@
 				},
 				{
 					"match": "^\\s*\\*[\\*\\s]*(@|\\$\\$)(header_start|header_end|auto_xml_channel_start|auto_xml_channel_end)\\s*$",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"},
@@ -30,7 +28,6 @@
 				},
 				{
 					"match": "^\\*\\*\\s*(#####)\\s*([^\\(]*)\\(([^\\)]*)\\)$",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"},
@@ -40,7 +37,6 @@
 				},
 				{
 					"match": "^\\s*\\*[\\*\\s]*(@|\\$\\$)(Site|Revision|MinSWversion|Remarks|encrypted)(.*?)$",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"},
@@ -50,7 +46,6 @@
 				},
 				{
 					"match": "^(\\s*\\*.*)$",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "comment"}
@@ -58,7 +53,6 @@
 				},
 				{
 					"match": "^\\s*(site|url_(index|preload|primarysearch|mdb(_p[1-8])?)|urldate|subpage(_mdb_p[1-8])?|index_url(channellogo|show|subdetail)|(detail_)?urlsubdetail|(index|mdb)_variable_element|global_temp_[1-9]|index_(date|showsplit|site_(id|channel))|(index_|detail_)?(start|stop|duration)|((index_|detail_|subdetail_)?(temp_[1-9]|title(original)?|subtitles?|description|director|actor|presenter|writer|producer|composer|commentator|rating(icon)?|category|productiondate|starrating|episode|showicon|country|premiere|previousshown|video(aspect|quality)))|sort_by|mdb_((show|episode)_id|episode(titlelist|numlist|absolute)?|(sub)?title|description|starrating(votes)?|plot|commentsummary|review|actor|director|producer|showicon|category|productiondate|country|temp_[1-9]))",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "storage.type.siteini"}
@@ -66,7 +60,6 @@
 				},
 				{
 					"match": "'(url_index|index_url(channellogo|show|subdetail)|(detail_)?urlsubdetail|(index|mdb)_variable_element|global_temp_[1-9]|index_(date|showsplit|site_(id|channel))|(urldate|subpage)(_formatted)?|(index_|detail_)?start,stop,duration|((index_|detail_|subdetail_)?temp_[1-9]|title(original)?|subtitles?|description|director|actor|presenter|writer|producer|composer|commentator|rating(icon)?|category|productiondate|starrating|episode|showicon|country|premiere|previousshown|video(aspect|quality))|mdb_((show|episode)_id|episode(titlelist|numlist|absolute)?|(sub)?title|description|starrating(votes)?|plot|commentsummary|review|actor|director|producer|showicon|category|productiondate|country|temp_[1-9])|x_(title|subtitle|productiondate|actor|director)|previous_(start|stop|duration)|previous_((index_|(sub)?detail_))?temp_[1-9]|channel|now|showdate|config_(site_(id|channel)|xmltv_id|display_name|timespan_days|credentials_(user|password)|site_(episodesystem|subtitlestype|ratingsystem)))'",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "storage.type.siteini"}
@@ -74,7 +67,6 @@
 				},
 				{
 					"match": "\"((index|mdb)_variable_element|index_(showsplit|site_(id|channel))|global_temp_[1-9]|((index_|detail_|subdetail_)?temp_[1-9]|title(original)?|subtitles?|description|director|actor|presenter|writer|producer|composer|commentator|rating(icon)?|category|productiondate|starrating|episode|showicon|country|premiere|previousshown|video(aspect|quality))|mdb_((show|episode)_id|episode(titlelist|numlist|absolute)?|(sub)?title|description|starrating(votes)?|plot|commentsummary|review|actor|director|producer|showicon|category|productiondate|country|temp_[1-9]))\"",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "storage.type.siteini"}
@@ -82,7 +74,6 @@
 				},
 				{
 					"match": "\\.(modify)\\s*\\{\\s*(set|calculate|clear|cleanup|substring|remove|addstart|addend|replace|select)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"},
@@ -91,7 +82,6 @@
 				},
 				{
 					"match": "\\.?(scrub)?\\s*\\{\\s*(\\||regex|multi|single|url)(?!=)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"},
@@ -100,7 +90,6 @@
 				},
 				{
 					"match": "(method)\\s*=(MULTIPART|GET|REST|SOAP|POST_BACK|POST)(\\()?(GET|POST)?(,)?(GET|POST)?(\\))?",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -114,7 +103,6 @@
 				},
 				{
 					"match": "[\\{\\|](customheader|accept|referer|contenttype|postdata|host|credentials|allowautoredirect|expect|list)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -122,7 +110,6 @@
 				},
 				{
 					"match": "[\\{\\|\\s](compression|subtitlestype|loadcookie|episodenumberformat|episodesystem|ratingsystem|url|timezone|maxdays|cultureinfo|charset|(title)?matchfactor|firstday|firstshow|grabengine|retry|skip|langoverrule|channelnameprefix|securityprotocol|mdbinitype|searchsite|channel-delay|show-delay|index-delay|time-out)\\s*=",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -130,7 +117,6 @@
 				},
 				{
 					"match": "[\\{\\|](allowlastdayoverflow|keepindexpage|nopageoverlaps|keeptabs)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -138,7 +124,6 @@
 				},
 				{
 					"match": "\\.(headers)\\s*",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"}
@@ -146,7 +131,6 @@
 				},
 				{
 					"match": "\\((urlencode)=\\s*(\\d),?(\\d)?,?(\\d)?,?(\\d)?,?(\\d)?,?(\\d)?\\s*\\)\\s*\\|",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -160,7 +144,6 @@
 				},
 				{
 					"match": "[\\s+\\(](preload|separator|span|step|count|pattern|target|tags|timespan|max|link|timezone)\\s*=",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -168,7 +151,6 @@
 				},
 				{
 					"match": "[\\s+\\(](alloc)\\s*=(site_id|xmltv_id|display_name),(site_id|xmltv_id|display_name)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -178,7 +160,6 @@
 				},
 				{
 					"match": "[\\s+\\(](removeduplicates)=?(name|title|equal)?,?(\\d+)?",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -188,7 +169,6 @@
 				},
 				{
 					"match": "(force|(not)?null|keep(first|last)|each)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -196,7 +176,6 @@
 				},
 				{
 					"match": "\\((lang|system|role|src|width|height|start|channel)\\s*=",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -204,7 +183,6 @@
 				},
 				{
 					"match": "[\\s*\\(](style)=\\s*(sentence|name|upper|lower|regex|url(en|de)code|uni(de|en)code|jsondecode|html(en|de)codespecialchar|base64encode|base64decode(,decimal)?|(sha256|md5)encode|roman2arabicnumeral)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -213,7 +191,6 @@
 				},
 				{
 					"match": "[\\s*\\(](type)=\\s*(string|char|word|sentence|paragraph|element|regex|run)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -222,7 +199,6 @@
 				},
 				{
 					"match": "(format)=(chartodec|productiondate|utcdate|utctime|timespan|date|time|[FD]),?(vba|unix|java|ticks|days|hours|\\d+)?",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -232,7 +208,6 @@
 				},
 				{
 					"match": "\\.(format)\\s*\\{\\s*(daycounter|date(string|number)|weekday(number|name)|letter|list|number)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"},
@@ -241,7 +216,6 @@
 				},
 				{
 					"match": "(include|exclude)\\s*=\\s*\"(.+?)\"(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -256,7 +230,6 @@
 				},
 				{
 					"match": "(includeblock|excludeblock)\\s*=\\s*\"(.+?)\"(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -271,7 +244,6 @@
 				},
 				{
 					"match": "(include|exclude)\\s*=\\s*(first|last)?(\\d+)?",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -281,7 +253,6 @@
 				},
 				{
 					"match": "(includeblock|excludeblock)\\s*=\\s*(\\d+|'.+?')\\s*(?:(?:(\\d+|/'.+?'))?/(\\d+|/'.+?'))?",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -292,7 +263,6 @@
 				},
 				{
 					"match": "'(S|St|E|Et|P|Pt)([01])'",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.function.siteini"},
@@ -301,7 +271,6 @@
 				},
 				{
 					"match": "(scope)\\s*=\\s*(urlindex|datelogo|splitindex|indexshowdetails|showdetails|showsubdetails|channellist|primarysearch|match|getelements|postback)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -310,7 +279,6 @@
 				},
 				{
 					"match": "^\\s*(scope\\.range)\\s+\\{\\s*\\((urlindex|datelogo|splitindex|indexshowdetails|showdetails|showsubdetails|channellist|primarysearch|match|getelements|postback)\\s*\\)\\s*\\|\\s*(end|\\d+)\\s*\\}",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -320,7 +288,6 @@
 				},
 				{
 					"match": "^\\s*(end_scope(\\.range)?)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -328,7 +295,6 @@
 				},
 				{
 					"match": "(debug)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -336,7 +302,6 @@
 				},
 				{
 					"match": "^\\s*(if|loop)\\s+\\{\\(",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -344,7 +309,6 @@
 				},
 				{
 					"match": "^\\s*(else)\\s+",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -352,7 +316,6 @@
 				},
 				{
 					"match": "\\)\\s*\\|(end|\\d+)\\s*\\}",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -360,7 +323,6 @@
 				},
 				{
 					"match": "^\\s*(end_(loop|if))",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"}
@@ -368,7 +330,6 @@
 				},
 				{
 					"match": "\\.(modify)\\s*\\{\\s*(sort)\\(\\s*(ascending|descending)\\s*,\\s*(string|integer|datetime)\\s*\\)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"},
@@ -379,7 +340,6 @@
 				},
 				{
 					"match": "\\((sort)@([0-9]{2}:[0-9]{2}),([0-9]{2}:[0-9]{2}),?([0-9]{2}:[0-9]{2})?,?([0-9]{2}:[0-9]{2})?,?([0-9]{2}:[0-9]{2})?,?([0-9]{2}:[0-9]{2})?\\)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -394,7 +354,6 @@
 				},
 				{
 					"match": "(\\|)(urldate|channel|subpage|'title'|'credit'|'productiondate')(\\|)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -404,7 +363,6 @@
 				},
 				{
 					"match": "(\\|)(primary|mdb_show_id|mdb_episode_id|p[1-9])(\\|)",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -414,7 +372,6 @@
 				},
 				{
 					"match": "\\s*(and|or|xor|shiftl|shiftr|not)\\}",
-					"name": "",
 					"captures":
 					{
 						"1": {"name": "entity.name.type.siteini"}
