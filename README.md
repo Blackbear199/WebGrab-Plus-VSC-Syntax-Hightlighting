@@ -10,7 +10,7 @@ Manual Install
 2. open or restart visual studio code(or reload window)
 3. open a webgrab siteini,if syntax is not highlighted,in the bottom right corner select WG++SiteIni from the syntax list.
 4. either use a installed them that suits your needs or you can select the included one.
-   File-->Preferences-->Color Theme,select WG++SiteIni Color.
+5. File-->Preferences-->Color Theme,select WG++SiteIni Color.
 
 Install via VSCode Extensions(preferred method)
 1. Download the .visx files you wish to install.
