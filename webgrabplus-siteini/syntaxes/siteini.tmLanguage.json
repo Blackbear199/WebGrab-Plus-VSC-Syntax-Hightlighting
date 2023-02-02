@@ -65,7 +65,7 @@
 					}
 				},
 				{
-					"match": "'(url_index|index_url(channellogo|show|subdetail)|(detail_)?urlsubdetail|(index|mdb)_variable_element|global_temp_[1-9]|index_(date|showsplit|site_(id|channel))|(urldate|subpage)(_formatted)?|(index_|detail_)?start,stop,duration|((index_|detail_|subdetail_)?temp_[1-9]|title(original)?|subtitles?|description|director|actor|presenter|writer|producer|composer|commentator|rating(icon)?|category|productiondate|starrating|episode|showicon|country|premiere|previousshown|video(aspect|quality))|mdb_((show|episode)_id|episode(titlelist|numlist|absolute)?|(sub)?title|description|starrating(votes)?|plot|commentsummary|review|actor|director|producer|showicon|category|productiondate|country|temp[1-9])|x_(title|subtitle|productiondate|actor|director)|previous_(start|stop|duration)|previous_((index_|(sub)?detail_))?temp_[1-9]|channel|now|showdate|config_(site_(id|channel)|xmltv_id|display_name|timespan_days|credentials_(user|password)|site_(episodesystem|subtitlestype|ratingsystem)))'",
+					"match": "'(url_index|index_url(channellogo|show|subdetail)|(detail_)?urlsubdetail|(index|mdb)_variable_element|global_temp_[1-9]|index_(date|showsplit|site_(id|channel))|(urldate|subpage)(_formatted)?|(index_|detail_)?start,stop,duration|((index_|detail_|subdetail_)?temp_[1-9]|title(original)?|subtitles?|description|director|actor|presenter|writer|producer|composer|commentator|rating(icon)?|category|productiondate|starrating|episode|showicon|country|premiere|previousshown|video(aspect|quality))|mdb_((show|episode)_id|episode(titlelist|numlist|absolute)?|(sub)?title|description|starrating(votes)?|plot|commentsummary|review|actor|director|producer|showicon|category|productiondate|country|temp_[1-9])|x_(title|subtitle|productiondate|actor|director)|previous_(start|stop|duration)|previous_((index_|(sub)?detail_))?temp_[1-9]|channel|now|showdate|config_(site_(id|channel)|xmltv_id|display_name|timespan_days|credentials_(user|password)|site_(episodesystem|subtitlestype|ratingsystem)))'",
 					"name": "",
 					"captures":
 					{
@@ -73,7 +73,7 @@
 					}
 				},
 				{
-					"match": "\"((index|mdb)_variable_element|index_(showsplit|site_(id|channel))|global_temp_[1-9]|((index_|detail_|subdetail_)?temp_[1-9]|title(original)?|subtitles?|description|director|actor|presenter|writer|producer|composer|commentator|rating(icon)?|category|productiondate|starrating|episode|showicon|country|premiere|previousshown|video(aspect|quality))|mdb_((show|episode)_id|episode(titlelist|numlist|absolute)?|(sub)?title|description|starrating(votes)?|plot|commentsummary|review|actor|director|producer|showicon|category|productiondate|country|temp[1-9]))\"",
+					"match": "\"((index|mdb)_variable_element|index_(showsplit|site_(id|channel))|global_temp_[1-9]|((index_|detail_|subdetail_)?temp_[1-9]|title(original)?|subtitles?|description|director|actor|presenter|writer|producer|composer|commentator|rating(icon)?|category|productiondate|starrating|episode|showicon|country|premiere|previousshown|video(aspect|quality))|mdb_((show|episode)_id|episode(titlelist|numlist|absolute)?|(sub)?title|description|starrating(votes)?|plot|commentsummary|review|actor|director|producer|showicon|category|productiondate|country|temp_[1-9]))\"",
 					"name": "",
 					"captures":
 					{
@@ -240,7 +240,7 @@
 					}
 				},
 				{
-					"match": "(include|exclude)\\s*=\\s*\"(.+?)\"(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?[\\)\\s*]",
+					"match": "(include|exclude)\\s*=\\s*\"(.+?)\"(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?",
 					"name": "",
 					"captures":
 					{
@@ -255,7 +255,7 @@
 					}
 				},
 				{
-					"match": "(includeblock|excludeblock)\\s*=\\s*\"(.+?)\"(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?[\\)\\s*]",
+					"match": "(includeblock|excludeblock)\\s*=\\s*\"(.+?)\"(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?(?:\"(.+?)\")?",
 					"name": "",
 					"captures":
 					{
