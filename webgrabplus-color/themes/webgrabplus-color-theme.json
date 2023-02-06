@@ -1194,6 +1194,12 @@
 			}
 		},
 		{
+			"scope": "entity.name.operator.siteini",
+			"settings": {
+				"foreground": "#42f560"
+			}
+		},
+		{
 			"scope": "storage.type.siteini",
 			"settings": {
 				"foreground": "#c381e4"
