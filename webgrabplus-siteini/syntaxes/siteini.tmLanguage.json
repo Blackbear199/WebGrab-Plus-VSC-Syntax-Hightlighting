@@ -154,7 +154,7 @@
 					}
 				},
 				{
-					"match": "[\\s+\\(](preload|separator|span|step|count|pattern|target|tags|timespan|max|link|timezone)\\s*(=)",
+					"match": "(preload|separator|span|step|count|pattern|target|tags|timespan|max|link|timezone)\\s*(=)",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -162,7 +162,7 @@
 					}
 				},
 				{
-					"match": "[\\s+\\(](alloc)\\s*(=)\\s*(site_id|xmltv_id|display_name),(site_id|xmltv_id|display_name)",
+					"match": "(alloc)\\s*(=)\\s*(site_id|xmltv_id|display_name),(site_id|xmltv_id|display_name)",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -172,7 +172,7 @@
 					}
 				},
 				{
-					"match": "[\\s+\\(](removeduplicates)(?:\\s*(=)\\s*(name|title|equal)(?:,(\\d+))?)?",
+					"match": "(removeduplicates)(?:\\s*(=)\\s*(name|title|equal)(?:,(\\d+))?)?",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -197,7 +197,7 @@
 					}
 				},
 				{
-					"match": "[\\s*\\(](style)\\s*(=)\\s*(sentence|name|upper|lower|regex|url(en|de)code|uni(de|en)code|jsondecode|html(en|de)codespecialchar|base64encode|base64decode(,decimal)?|(sha256|md5)encode|roman2arabicnumeral)",
+					"match": "(style)\\s*(=)\\s*(sentence|name|upper|lower|regex|url(en|de)code|uni(de|en)code|jsondecode|html(en|de)codespecialchar|base64encode|base64decode(,decimal)?|(sha256|md5)encode|roman2arabicnumeral)",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -206,7 +206,7 @@
 					}
 				},
 				{
-					"match": "[\\s*\\(](type)\\s*(=)\\s*(string|char|word|sentence|paragraph|element|regex|run)",
+					"match": "(type)\\s*(=)\\s*(string|char|word|sentence|paragraph|element|regex|run)",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
@@ -397,7 +397,7 @@
 					}
 				},
 				{
-					"match": "[\\(\\s*](not)?\\s*(==|=|~~|~|>=|>|<=|<)?",
+					"match": "[\\(\\s*](not)?\\s*(==|=|~~|~|>=|>|<=|<)?\\s*",
 					"captures":
 					{
 						"1": {"name": "entity.name.tag.siteini"},
