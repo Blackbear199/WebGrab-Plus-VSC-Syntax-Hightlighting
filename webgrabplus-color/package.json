@@ -2,7 +2,6 @@
   "name": "webgrabplus-color",
   "displayName": "WebGrab+Plus Color",
   "description": "WebGrab+Plus SiteIni Color Theme",
-  "icon": "images/webgrab.png",
   "publisher": "Blackbear199",
   "version": "0.0.2",
   "engines": {
