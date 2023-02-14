@@ -81,7 +81,7 @@
 					}
 				},
 				{
-					"match": "\\{\\s*(url)[\\|\\(]",
+					"match": "\\{\\s*(url(?!=)",
 					"captures":
 					{
 						"1": {"name": "entity.name.function.siteini"}
@@ -407,5 +407,5 @@
 			]
 		}
 	},
-	"scopeName": "scope.siteini"
+	"scopeName": "source.siteini"
 }
