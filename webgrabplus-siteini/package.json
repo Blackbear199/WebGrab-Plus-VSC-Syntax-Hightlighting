@@ -20,7 +20,7 @@
     }],
     "grammars": [{
       "language": "siteini",
-      "scopeName": "scope.siteini",
+      "scopeName": "source.siteini",
       "path": "./syntaxes/siteini.tmLanguage.json"
     }]
   }
